@@ -1,0 +1,23 @@
+
+.top-bar {
+    background-color: #297289;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}

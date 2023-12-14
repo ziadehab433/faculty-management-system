@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #297289;
+    padding: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.student-info {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+table {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #297289;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

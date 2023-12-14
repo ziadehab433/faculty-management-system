@@ -1,0 +1,46 @@
+.top-bar {
+    background-color: #297289;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.checkbox-cell {
+    text-align: center;
+}
+
+.confirm-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirm-button button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #297289;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-button button:hover {
+    background-color: #23596e;
+}

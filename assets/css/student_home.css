@@ -1,0 +1,29 @@
+#we{
+    text-align: right;
+}
+#img{
+    height: 10%;
+    width: 10%;
+    border-radius: 10px;
+    float: right;
+    margin-top: 20px;
+}
+#text{
+    text-align: right;
+    margin-top: 200px;
+}
+.bt{
+    margin-left: 100px;
+}
+
+.smallerWidthAndColor{
+    width: 100%;
+}
+
+.smallerWidthAndColor div{
+    background-color: #297289;
+}
+
+.smallerWidthAndColor div:hover{
+    background-color: #358296;
+}

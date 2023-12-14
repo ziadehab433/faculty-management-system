@@ -1,0 +1,92 @@
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background: url('../img/Young\ people\ walking\ in\ front\ of\ college\ or\ university.jpg') center/cover no-repeat;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #dee2e6;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 35px;
+            opacity: 0.9;
+            width: 80%; 
+            max-width: 400px; 
+        }
+
+        .form-control {
+            background-color: #F5F5F7;
+            border: 1px solid #ced4da;
+        }
+
+        .input {
+            width: 100%;
+            height: 45px;
+            border-radius: 10px;
+            border: 1px solid #A0D9D0;
+            padding-left: 10px;
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: #F5F5F7;
+        }
+
+        .input::placeholder {
+            color: #297289;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .input:focus {
+            outline: none;
+            border: 2px solid #A0D9D0;
+        }
+
+        .error {
+            font-size: 14px;
+            color: red;
+        }
+
+        .btn-primary {
+            width: 100%;
+            height: 50px;
+            background-color: #297289;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.15s;
+            box-shadow: 1px 2px 3px #84AFBC;
+        }
+
+        .btn-primary:hover {
+            background-color: #84AFBC;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            .card {
+                width: 100%;
+            }
+        }
